@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div.poster{
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+}
+
+div.text{
+    font-size: 100px;
+    text-align: center;
+    font-family: BBBixxxel-Regular;
+    color: rgb(0, 0, 0);
+    transition: 0.5s
+    
+}
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+ /* Column stuff */
+
+div.col{
+    width: 33.33%;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 20px 3px rgb(255, 255, 255);
+    
+    
+}
+
+ /* thirds */
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 { 
+    width: 66.66%;
+}
+
+div.w3-3 {
+    width: 100%;
+}
+
+ /* half */
+
+ div.w1-2 {
+    width: 50%;
+}
+
+div.w2-2 { 
+    width: 100%;
+}
+
+ /* quarters */
+
+ div.w1-4 {
+    width: 25%;
+}
+
+div.w2-4 { 
+    width: 50%;
+}
+
+div.w3-4 {
+    width: 75%;
+}
+
+div.w4-4 {
+    width: 100%;
+}
+
+/* rule 1 */
+
+div.text.one{
+    background-color: rgb(255, 0, 0);
+    opacity: 10%;
+}
+
+div.text.two{
+    background-color: rgb(255, 242, 65);
+    opacity: 50%;
+    
+}
+
+div.text.three{
+    background-color: rgb(41, 255, 13);
+    opacity: 90%;
+    
+}
+
+/* rule 2 */
+
+div.text.a{
+    border-radius: 20%;
+    
+}
+
+div.text.b{
+  border-radius: 50%;
+}
+
+div.text.c{
+    border-radius: 75%;
+}
+
+/* rule 3 */
+@font-face {
+    font-family:BBBOcelot-Regular ;
+    src:BBBOcelot-Regular url(BBBOcelot-Regular.woff);
+}
+
+@font-face {
+    font-family: BBBAufgangOstGX;
+    src:BBBAufgangOstGX url(BBBAufgangOstGX.woff);
+}
+
+@font-face {
+    font-family: BBBixxxel-Regular;
+    src:BBBixxxel-Regular url(BBBixxxel-Regular.woff);
+}
+
+div.text.x{
+font-family: BBBOcelot-Regular
+}
+
+div.text.y{
+font-family: BBBAufgangOstGX;
+}
+
+div.text.y{
+font-family: BBBixxxel-Regular;
+}
+
+div.small{
+    font-size: 20px;
+    text-align: right;
+    color: rgb(223, 214, 97);
+
+}
+
+
+
